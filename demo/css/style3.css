@@ -31,15 +31,17 @@ a{
 html {
 	background-image: url(3.jpg);
 
+
 	
 }
 
 #page-wrapper{
-	min-height: 200%;
+	min-height: 210%;
 
 }
 #page-wrapper{
-	background-image: url(dota2.jpg);
+	background-image: url(166816950.jpg);
+
 	background-position: center top;
 	background-repeat: no-repeat;
 
@@ -114,17 +116,7 @@ html {
 #primary-menu > ul > li a:hover::before {
 	opacity: 1;
 }
- #class-png{
- position: absolute;
- background: url(q.png);
- bottom: -15px;
- left:740px;
- width: 400px;
- height: 260px;
- text-align: bottom;	
-
-	
- }
+ 
 
 /* Secondary-menu */
 
@@ -133,6 +125,7 @@ html {
  left: 100px;
  bottom: 221px;
  text-align:center;
+
 }
 
 
@@ -146,14 +139,71 @@ line-height: 0px;
 
 #secondary-menu > #logo {
 	display: inline-block;
+	position: absolute;
+	left: -80px;
+	top: -450px;
 	width: 800px;
 
 }
 
+.dota2 {
+	position: absolute;
+	top: -550px;
+	left: -40px;
+    color: white;
+    font-size: 30px;
+    line-height: 32px;
+    text-overflow: ellipsis;
+}
+#sidebargo {
+	background-image: url(116.png);
+	position: absolute;
+	top: 74px;
+	left: 10px;
+	width: 1543px;
+	height: 750px;
+	padding: 40px;
+	border: 2px groove black;
+    padding: 0px;
+}
+
+#sidebargoo {
+	background-image: url(10.png);
+	position: absolute;
+	top: 195px;
+	left: 20px;
+	width: 1205px;
+	height: 500px;
+	padding: 40px;
+	border: 2px groove white;
+    padding: 0px;
+}
+#logotip{
+	background-image: url(logotip.jpg);
+	position: absolute;
+	top: 219px;
+	left: 855px;
+	width: 370px;
+	height: 160px;
+	padding: 40px;
+	
+    padding: 0px;
+}
+.game_description_snippet {
+	position: absolute;
+	bottom: -140px;
+    max-height: 200px;
+    font-size: 13px;
+    line-height: 18px;
+    padding-right: 16px;
+    overflow: hidden;
+    color: #a4b2bf;
+}
 #secondary-menu> ul > li {
 	display: inline-block;
 	list-style:none;
 	margin-right: 60px;
+
 
 }
 #secondary-menu> ul > li > a{
@@ -166,12 +216,16 @@ line-height: 0px;
 	}
 
 #slider{
-	height: 600px;
-	width: 1591px;
+	height: 572px;
+	width: 1587px;
 	position: absolute;
 	bottom: -700px;
-	left: 150px;
-
+	left: 152px;
+	/*
+	border: 6px double White;
+    padding: 0px;
+    color: black;
+	*/
 
 }
 
@@ -196,7 +250,11 @@ line-height: 0px;
 	left: 150px;
 	width: 1330px;
 	padding: 40px;
-	height: 420px;
+	height: 503px;
+	border: 6px double black;
+	background: #D3D3D3;
+    padding: 55px;
+    color: black;
 	
 }
 #sidebar {
@@ -205,12 +263,13 @@ line-height: 0px;
 	top: 1657px;
 	left: 1480px;
 	width: 261px;
-	height: 420px;
+	height: 503px;
 	padding: 40px;
-	
-	
-
+	border: 2px groove black;
+    padding: 0px;
 }
+
+
 .clear {
 	clear: both;
 }
@@ -236,3 +295,4 @@ line-height: 0px;
 	color: #EE0011;
 
 	}
+
