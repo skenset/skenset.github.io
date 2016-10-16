@@ -1,0 +1,288 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet)
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+img{
+	max-width: 100%;
+
+}
+
+a{
+	display: inline-block;
+
+}
+
+*{
+	font-family:"Roboto Condensed", Arial, sans-serif;
+	box-sizing: border-box;
+}
+.container{
+	width: 1900px;
+	margin:-900 auto;
+}
+
+#page-wrapper{
+	padding-top: 890px;
+
+	
+}
+html {
+	background-image: url(3.jpg);
+
+
+	
+}
+
+#page-wrapper{
+	min-height: 210%;
+
+}
+#page-wrapper{
+	background-image: url(166816950.jpg);
+
+	background-position: center top;
+	background-repeat: no-repeat;
+
+}
+/* Secondary-menu */
+
+#secondary-menu {
+ position: absolute;
+ left: 100px;
+ bottom: 221px;
+ text-align:center;
+
+}
+
+
+#secondary-menu> ul {
+display: inline-block;
+padding: 0;
+margin: 25;
+padding: 0 15px;
+line-height: 0px;
+}
+
+#secondary-menu > #logo {
+	display: inline-block;
+	position: absolute;
+	left: -80px;
+	top: -450px;
+	width: 800px;
+
+
+}
+
+.dota2 {
+	position: absolute;
+	top: -550px;
+	left: -40px;
+    color: white;
+    font-size: 30px;
+    line-height: 32px;
+    text-overflow: ellipsis;
+}
+#sidebargo {
+	background-image: url(116.png);
+	position: absolute;
+	top: 74px;
+	left: 10px;
+	width: 1884px;
+	height: 750px;
+	padding: 40px;
+	border: 2px groove black;
+    padding: 0px;
+}
+
+#sidebargoo {
+	background-image: url(10.png);
+	position: absolute;
+	top: 195px;
+	left: 20px;
+	width: 1205px;
+	height: 500px;
+	padding: 40px;
+	border: 2px groove white;
+    padding: 0px;
+}
+#logotip{
+	background-image: url(logotip.jpg);
+	position: absolute;
+	top: 219px;
+	left: 855px;
+	width: 370px;
+	height: 160px;
+	padding: 40px;
+	
+    padding: 0px;
+}
+.game_description_snippet {
+	position: absolute;
+	bottom: -190px;
+    max-height: 200px;
+    font-size: 13px;
+    line-height: 18px;
+    padding-right: 16px;
+    overflow: hidden;
+    color: #a4b2bf;
+}
+
+
+.btn {
+  position: absolute;
+  top: 407px;
+  left: 110px;
+  background: #fff;
+  background-image: -webkit-linear-gradient(top, #fff, #fff);
+  background-image: -moz-linear-gradient(top, #fff, #fff);
+  background-image: -ms-linear-gradient(top, #fff, #fff);
+  background-image: -o-linear-gradient(top, #fff, #fff);
+  background-image: linear-gradient(to top, #5dd934, #7fb82b);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+.btn:hover {
+  background: #fff;
+  background-image: -webkit-linear-gradient(top, #fc3cd6, #5656cc);
+  background-image: -moz-linear-gradient(top, #fc3cd6, #5656cc);
+  background-image: -ms-linear-gradient(top, #fc3cd6, #5656cc);
+  background-image: -o-linear-gradient(top, #fc3cd6, #5656cc);
+  background-image: linear-gradient(to top, #00EE00, #00EE00);
+  text-decoration: none;
+}
+
+#secondary-menu> ul > li {
+	display: inline-block;
+	list-style:none;
+	margin-right: 60px;
+
+
+}
+#secondary-menu> ul > li > a{
+	text-decoration: none;
+	color: #fff;
+}
+#secondary-menu> ul > li > a:hover {
+	color: #FFA500;
+
+	}
+
+#slider{
+	height: 572px;
+	width: 1587px;
+	position: absolute;
+	bottom: -700px;
+	left: 152px;
+	/*
+	border: 6px double White;
+    padding: 0px;
+    color: black;
+	*/
+
+}
+
+/* Content */
+#content-wrapper {
+	background-color: #fff;
+	}
+#content-wrapperr {
+	background-color: #fff;
+	}
+
+#content, #sidebar{
+	float: left;
+	padding: 40px;
+}
+
+
+#content{
+	background-color: #fff;
+	position: absolute;
+	top: 1657px;
+	left: 150px;
+	width: 1330px;
+	padding: 40px;
+	height: 503px;
+	border: 6px double black;
+	background: #D3D3D3;
+    padding: 55px;
+    color: black;
+	
+}
+#sidebar {
+	background-image: url(dotalinks.jpg);
+	position: absolute;
+	top: 1657px;
+	left: 1480px;
+	width: 261px;
+	height: 503px;
+	padding: 40px;
+	border: 2px groove black;
+    padding: 0px;
+}
+
+
+.clear {
+	clear: both;
+}
+#footer{
+	position: absolute;
+	top: 3000px;
+	left: 0px;
+	width: 1940px;
+	padding: 40px;
+	
+}
+#sidebar> ul > li {
+	display: inline-block;
+	list-style:none;
+	margin-right: 60px;
+
+}
+#sidebar> ul > li > a{
+	text-decoration: none;
+	color: #fff;
+}
+#sidebar> ul > li > a:hover {
+	color: #EE0011;
+
+	}
+
+
+ul.nav li{
+	display:inline-block;
+}
+ul.nav li a{
+	color: #FFFAFA;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	text-decoration:none;
+	font-size: 14px;
+	border-right:2px solid rgba(255, 255, 255, 0.33);
+	padding:4px 182px;
+	transition:0.1s all;
+	-webkit-transition:0.1s all;
+	-moz-transition:0.1s all;
+	-o-transition:0.1s all;
+	-ms-transition:0.1s all;
+}
+ul.nav li a:hover{
+	background-color:	#FFFFE0;
+	font-size: 12px;
+    line-height: 15px;
+	border: 4px groove 	#00BFFF;
+	color:black;
+}
+
+
+
