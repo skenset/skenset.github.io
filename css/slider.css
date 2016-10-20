@@ -1,0 +1,42 @@
+body{
+
+}
+.btn:hover {
+  background: #fff;
+  background-image: -webkit-linear-gradient(top, #fc3cd6, #5656cc);
+  background-image: -moz-linear-gradient(top, #fc3cd6, #5656cc);
+  background-image: -ms-linear-gradient(top, #fc3cd6, #5656cc);
+  background-image: -o-linear-gradient(top, #fc3cd6, #5656cc);
+  background-image: linear-gradient(to top, #00EE00, #00EE00);
+  text-decoration: none;
+}
+
+#secondary-menu> ul > li {
+	display: inline-block;
+	list-style:none;
+	margin-right: 60px;
+
+
+}
+#secondary-menu> ul > li > a{
+	text-decoration: none;
+	color: #fff;
+}
+#secondary-menu> ul > li > a:hover {
+	color: #FFA500;
+
+	}
+
+#slider{
+	height: 572px;
+	width: 1587px;
+	position: absolute;
+	bottom: -700px;
+	left: 152px;
+	/*
+	border: 6px double White;
+    padding: 0px;
+    color: black;
+	*/
+
+}

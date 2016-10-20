@@ -3,6 +3,10 @@
 html, body {
 	padding: 0;
 	margin: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
 }
 img{
 	max-width: 100%;
@@ -18,33 +22,44 @@ a{
 	font-family:"Roboto Condensed", Arial, sans-serif;
 	box-sizing: border-box;
 }
+
+html {
+	background-image: url(3.jpg);
+	max-width: 1900px;
+	min-width: 320px;
+
+
+	
+}
 .container{
-	width: 1900px;
+	width: 1890px;
 	margin:-900 auto;
+
 }
 
 #page-wrapper{
 	padding-top: 890px;
-
-	
-}
-html {
-	background-image: url(3.jpg);
-
-
-	
-}
-
-#page-wrapper{
-	min-height: 210%;
+	min-height: 200%;
 
 }
 #page-wrapper{
+	max-width: 1890px;
+	min-width: 320px;
 	background-image: url(166816950.jpg);
 
 	background-position: center top;
 	background-repeat: no-repeat;
 
+}
+#page-wrapper2{
+	position: absolute;
+	top:-76px;
+	right: 0px;
+	background-image: url(116.png);
+	width: 1863px;
+	height: 74px;
+	max-width: 1890px;
+	min-width: 320px;
 }
 /* Secondary-menu */
 
@@ -69,7 +84,7 @@ line-height: 0px;
 	display: inline-block;
 	position: absolute;
 	left: -80px;
-	top: -450px;
+	top: 100px;
 	width: 800px;
 
 
@@ -77,7 +92,7 @@ line-height: 0px;
 
 .dota2 {
 	position: absolute;
-	top: -550px;
+	top: -400px;
 	left: -40px;
     color: white;
     font-size: 30px;
@@ -94,6 +109,8 @@ line-height: 0px;
 	padding: 40px;
 	border: 2px groove black;
     padding: 0px;
+    max-width: 98%;
+    box-sizing: border-box;
 }
 
 #sidebargoo {
@@ -106,17 +123,19 @@ line-height: 0px;
 	padding: 40px;
 	border: 2px groove white;
     padding: 0px;
+     max-width: 98%;
+
 }
 #logotip{
 	background-image: url(logotip.jpg);
 	position: absolute;
-	top: 219px;
-	left: 855px;
+	top: 20px;
+	left: 833px;
 	width: 370px;
 	height: 160px;
 	padding: 40px;
-	
     padding: 0px;
+    max-width: 98%;
 }
 .game_description_snippet {
 	position: absolute;
@@ -132,8 +151,10 @@ line-height: 0px;
 
 .btn {
   position: absolute;
-  top: 407px;
-  left: 110px;
+  top: 380px;
+  width: 200px;
+  height: 50px;
+  left: 0px;
   background: #fff;
   background-image: -webkit-linear-gradient(top, #fff, #fff);
   background-image: -moz-linear-gradient(top, #fff, #fff);
@@ -164,32 +185,26 @@ line-height: 0px;
 #secondary-menu> ul > li {
 	display: inline-block;
 	list-style:none;
-	margin-right: 60px;
+	margin-right: 100px;
+	
+
 
 
 }
 #secondary-menu> ul > li > a{
 	text-decoration: none;
 	color: #fff;
+	position: absolute;
+	bottom: -150px;
 }
 #secondary-menu> ul > li > a:hover {
 	color: #FFA500;
-
-	}
-
-#slider{
-	height: 572px;
-	width: 1587px;
 	position: absolute;
-	bottom: -700px;
-	left: 152px;
-	/*
-	border: 6px double White;
-    padding: 0px;
-    color: black;
-	*/
+	bottom: -150px;
 
 }
+
+	}
 
 /* Content */
 #content-wrapper {
@@ -206,9 +221,13 @@ line-height: 0px;
 
 
 #content{
+	display: inline-block;
+	max-width: 1890px;
+	min-width: 320px;
+    height: auto;
 	background-color: #fff;
 	position: absolute;
-	top: 1657px;
+	top: 1088px;
 	left: 150px;
 	width: 1330px;
 	padding: 40px;
@@ -217,18 +236,21 @@ line-height: 0px;
 	background: #D3D3D3;
     padding: 55px;
     color: black;
+     max-width: 100%;
+     max-height: 1000px;
 	
 }
 #sidebar {
 	background-image: url(dotalinks.jpg);
 	position: absolute;
-	top: 1657px;
-	left: 1480px;
+	top: -4px;
+	left: 1324px;
 	width: 261px;
-	height: 503px;
+	height: 499px;
 	padding: 40px;
-	border: 2px groove black;
+	border: 6px double #fff;
     padding: 0px;
+    max-width: 100%;
 }
 
 
@@ -260,9 +282,11 @@ line-height: 0px;
 
 
 ul.nav li{
+	
 	display:inline-block;
 }
 ul.nav li a{
+	margin-left: -36px;
 	color: #FFFAFA;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 400;
@@ -277,12 +301,12 @@ ul.nav li a{
 	-ms-transition:0.1s all;
 }
 ul.nav li a:hover{
+
 	background-color:	#FFFFE0;
 	font-size: 12px;
     line-height: 15px;
 	border: 4px groove 	#00BFFF;
 	color:black;
 }
-
 
 
