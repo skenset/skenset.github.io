@@ -293,7 +293,7 @@ ul.nav li a{
 	text-decoration:none;
 	font-size: 14px;
 	border-right:2px solid rgba(255, 255, 255, 0.33);
-	padding:4px 182px;
+	padding:5px 180px;
 	transition:0.1s all;
 	-webkit-transition:0.1s all;
 	-moz-transition:0.1s all;
@@ -306,7 +306,7 @@ ul.nav li a:hover{
 	background-color:	#FFFFE0;
 	font-size: 12px;
     line-height: 15px;
-	border: 4px groove 	#00BFFF;
+	border: 5px groove 	#00BFFF;
 	color:black;
 }
 
