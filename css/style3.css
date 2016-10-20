@@ -53,13 +53,13 @@ html {
 }
 #page-wrapper2{
 	position: absolute;
-	top:-76px;
+	top:-80px;
 	right: 0px;
 	background-image: url(116.png);
 	width: 1863px;
-	height: 74px;
-	max-width: 1890px;
-	min-width: 320px;
+	height: 80px;
+	max-width: 100%;
+	min-width: 600px;
 }
 /* Secondary-menu */
 
@@ -92,7 +92,7 @@ line-height: 0px;
 
 .dota2 {
 	position: absolute;
-	top: -400px;
+	top: -360px;
 	left: -40px;
     color: white;
     font-size: 30px;
@@ -102,7 +102,7 @@ line-height: 0px;
 #sidebargo {
 	background-image: url(116.png);
 	position: absolute;
-	top: 74px;
+	top: 100px;
 	left: 10px;
 	width: 1884px;
 	height: 750px;
@@ -116,7 +116,7 @@ line-height: 0px;
 #sidebargoo {
 	background-image: url(10.png);
 	position: absolute;
-	top: 195px;
+	top: 250px;
 	left: 20px;
 	width: 1205px;
 	height: 500px;
@@ -286,7 +286,7 @@ ul.nav li{
 	display:inline-block;
 }
 ul.nav li a{
-	margin-left: -36px;
+	margin-left: -7px;
 	color: #FFFAFA;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 400;
@@ -299,6 +299,7 @@ ul.nav li a{
 	-moz-transition:0.1s all;
 	-o-transition:0.1s all;
 	-ms-transition:0.1s all;
+
 }
 ul.nav li a:hover{
 
