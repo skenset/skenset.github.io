@@ -1,0 +1,43 @@
+body{
+}
+#class{
+position: absolute;
+top:10px;
+}
+#class2{
+background-image: url(int5.png);
+position: absolute;
+top:10px;
+top:190px;
+height: 163px;
+}
+#class3{
+background-image: url(int4.png);
+position: absolute;
+top:370px;
+width: 256px;
+height: 163px;
+}	
+#class4{
+position: absolute;
+top:370px;
+right: 10px;
+background-image: url(int3.png);
+width: 256px;
+height: 163px;
+}
+#class5{
+position: absolute;
+right: 10px;
+top:190px;
+background-image: url(int2.png);
+width: 256px;
+height: 163px;
+}	
+#class6{
+position: absolute;
+right: 10px;
+background-image: url(int1.png);
+width: 256px;
+height: 163px;
+}	
