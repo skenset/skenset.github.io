@@ -1,42 +1,43 @@
 body{
-
 }
-.btn:hover {
-  background: #fff;
-  background-image: -webkit-linear-gradient(top, #fc3cd6, #5656cc);
-  background-image: -moz-linear-gradient(top, #fc3cd6, #5656cc);
-  background-image: -ms-linear-gradient(top, #fc3cd6, #5656cc);
-  background-image: -o-linear-gradient(top, #fc3cd6, #5656cc);
-  background-image: linear-gradient(to top, #00EE00, #00EE00);
-  text-decoration: none;
+#class{
+position: absolute;
+top:10px;
 }
-
-#secondary-menu> ul > li {
-	display: inline-block;
-	list-style:none;
-	margin-right: 60px;
-
-
+#class2{
+background-image: url(int5.png);
+position: absolute;
+top:10px;
+top:190px;
+height: 163px;
 }
-#secondary-menu> ul > li > a{
-	text-decoration: none;
-	color: #fff;
+#class3{
+background-image: url(int4.png);
+position: absolute;
+top:370px;
+width: 256px;
+height: 163px;
+}	
+#class4{
+position: absolute;
+top:370px;
+right: 10px;
+background-image: url(int3.png);
+width: 256px;
+height: 163px;
 }
-#secondary-menu> ul > li > a:hover {
-	color: #FFA500;
-
-	}
-
-#slider{
-	height: 572px;
-	width: 1587px;
-	position: absolute;
-	bottom: -700px;
-	left: 152px;
-	/*
-	border: 6px double White;
-    padding: 0px;
-    color: black;
-	*/
-
-}
+#class5{
+position: absolute;
+right: 10px;
+top:190px;
+background-image: url(int2.png);
+width: 256px;
+height: 163px;
+}	
+#class6{
+position: absolute;
+right: 10px;
+background-image: url(int1.png);
+width: 256px;
+height: 163px;
+}	
